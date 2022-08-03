@@ -123,7 +123,7 @@ def cube(points, phi, theta):
             dp = abs(dp) / 20
             pygame.draw.polygon(
                 sc,
-                (dp * red, dp * green, dp * blue),
+                (0, 0, 0),
                 [
                     ((x1 * 100) * 10 / z1 + xs, (y1 * 100) * 10 / z1 + ys),
                     ((x2 * 100) * 10 / z2 + xs, (y2 * 100) * 10 / z2 + ys),
